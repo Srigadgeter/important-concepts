@@ -34,6 +34,22 @@ console.log(num2); // Returns 6 after the line with initialization is executed
 console.log(num3); // Throws ReferenceError exception - the interpreter doesn't know about `num3`.
 num3 = 3; // Initialization
 
+// ex 4
+console.log(a); // undefined
+{
+  var a = 10;
+}
+
+// ex 5
+console.log(a); // error: TDZ (Temporal Dead Zone)
+{
+  let a = 10;
+}
+
+// ex 6
+console.log(a); // error: TDZ
+let a = 10;
+
 // Function hoisting
 // -----------------
 // One of the advantages of hoisting is that it lets you use a function before you declare it in your code.
