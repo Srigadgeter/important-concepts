@@ -17,3 +17,7 @@
 13. Object Manipulation
 14. Promise
 15. Async-await
+
+### Important Concepts in Redux
+
+1. Redux, 3 Principles of Redux & Redux Flow
